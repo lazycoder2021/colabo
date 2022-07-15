@@ -1,0 +1,46 @@
+USERROLES
+=========
+
+isWriter (default)  
+isReviewer
+isApprover
+isAdmin
+
+separate screens depending on the user role and document status? 
+
+DOCSTATUS
+==========
+
+inprogress (default) 
+under_review
+pending_approval
+approved
+
+[onhold can be added later] 
+
+============================================
+
+
+DATA THAT COULD BE SHOWN
+==========================
+
+no of docs completed, docs under review, docs pending approval, docs completed [for writer]
+docs reviewed, docs pending review, docs sent for approval, docs being reviewed [for reviewer] 
+docs approved, docs pending approval, docs not approved (with due reason attached) [for approver] 
+no of writers, reviewers, approvers involved (and their respective data) [for admin] 
+
+
+HOw TO ASSIGN USER ROLES
+=======================
+
+allow self assigning of roles during login (for now) and show appropriate screen  
+
+
+QUERIES ALLOWED
+==================================
+
+pending_approval, under_review [status allowed] 
+
+
+
+

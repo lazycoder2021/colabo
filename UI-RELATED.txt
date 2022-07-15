@@ -1,0 +1,10 @@
+4 charts (no of documents written, no of documents reviewed, no of documents approved) 
+
+/////along with (no of writers involved, no of reviewers involved and not of approvers involved) 
+
+along with create a document + Are you a reviewer or approver 'CLICK HERE' button 
+
+
+NOTE NOTE NOTE!!!!!: for now, i am just pulling docs that match the status (ex: reviewed, under_review etc). they don't exactly belong to the person to whom the info is displayed. he just possesses the rights/privileges to act on the info. 
+
+NOTE NOTE NOTE!!!: there is no separate status like review_completed (just under_review and pending_approval). So basically what's shown as review completed in the reviewer dashboard are docs with status completed.  

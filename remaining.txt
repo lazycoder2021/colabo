@@ -1,0 +1,5 @@
+1. should handle empty localstorage case (for now non-logged in user can freely access dashboard, rdashboard, wdashboard - though no data is present to be displayed) 
+
+SIMPLE FIX FOR NOW: reroute (when ls is empty) back to home page showing a simple alert
+
+2. landing page can contain separate logins: for writer, reviewer and 
